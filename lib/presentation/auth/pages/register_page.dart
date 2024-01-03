@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_cbt_tpa_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_cbt_tpa_app/data/models/request/register_request_model.dart';
-import 'package:flutter_cbt_tpa_app/presentation/auth/bloc/register/register_bloc.dart';
-import 'package:flutter_cbt_tpa_app/presentation/home/pages/dashboard_page.dart';
+import '../../../data/datasources/auth_local_datasource.dart';
+import '../../../data/models/request/register_request_model.dart';
+import '../../../presentation/auth/bloc/register/register_bloc.dart';
+import '../../../presentation/home/pages/dashboard_page.dart';
 import '../../../core/extentions/build_context_ext.dart';
-
 import '../../../core/components/buttons.dart';
 import '../../../core/components/custom_text_field.dart';
 import '../../../core/constants/colors.dart';

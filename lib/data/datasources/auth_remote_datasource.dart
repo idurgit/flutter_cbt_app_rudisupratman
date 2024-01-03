@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_cbt_tpa_app/core/constants/variables.dart';
-import 'package:flutter_cbt_tpa_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_cbt_tpa_app/data/models/request/login_request_model.dart';
-import 'package:flutter_cbt_tpa_app/data/models/request/register_request_model.dart';
-import 'package:flutter_cbt_tpa_app/data/models/responses/auth_response_model.dart';
+import '../../../core/constants/variables.dart';
+import '../../../data/datasources/auth_local_datasource.dart';
+import '../../../data/models/request/login_request_model.dart';
+import '../../../data/models/request/register_request_model.dart';
+import '../../../data/models/responses/auth_response_model.dart';
 import 'package:http/http.dart' as http;
 
 class AuthRemoteDatasource {

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_cbt_tpa_app/core/extentions/build_context_ext.dart';
-import 'package:flutter_cbt_tpa_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_cbt_tpa_app/data/models/request/login_request_model.dart';
-import 'package:flutter_cbt_tpa_app/presentation/auth/bloc/login/login_bloc.dart';
-
+import '../../../core/extentions/build_context_ext.dart';
+import '../../../data/datasources/auth_local_datasource.dart';
+import '../../../data/models/request/login_request_model.dart';
+import '../../../presentation/auth/bloc/login/login_bloc.dart';
 import '../../../core/components/buttons.dart';
 import '../../../core/components/custom_text_field.dart';
 import '../../../core/constants/colors.dart';
@@ -77,7 +76,7 @@ class _LoginPageState extends State<LoginPage> {
                     SnackBar(
                       content: Text(
                         message,
-                        style: TextStyle(color: Colors.black),
+                        style: const TextStyle(color: Colors.black),
                       ),
                       backgroundColor: AppColors.lightRed,
                     ),

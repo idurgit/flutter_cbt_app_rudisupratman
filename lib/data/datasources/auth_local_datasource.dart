@@ -1,4 +1,4 @@
-import 'package:flutter_cbt_tpa_app/data/models/responses/auth_response_model.dart';
+import '../../../data/models/responses/auth_response_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthLocalDatasource {
